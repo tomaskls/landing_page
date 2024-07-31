@@ -50,3 +50,79 @@
     color: #9A54BC;
     font-weight: 600;
 }
+.flexColumn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.section1{
+    margin-top: 100px;
+    
+
+}
+.headingContainer{
+    text-align: center;
+    gap: 50px;
+   
+
+}
+.heading{
+    font-size: 3rem;
+    color: #2B0236;
+
+}
+.headingbtn{
+    padding: 20px 32px;
+    background-color:  #9A54BC;
+    color: white;
+    border: 1px solid #9A54BC;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.headingbtn:hover{
+
+    background-color: white;
+    color: #9A54BC;
+}
+.firstPhoneContainer{
+    position: relative;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 80px;
+    top: 0px;
+    height: 500px;
+
+}
+.absolute{
+    position: absolute;
+}
+.bigElipse{
+    top: 0px;
+}
+.smallElipse{
+    top: 25px;
+}
+.rectangle{
+    top: 45px;
+}
+.collabWord{
+    top: 80px;
+
+}
+.elipseBtn{
+    top: 320px;
+    width: 140px;
+    padding: 10px 15px;
+    background-color: white;
+    border: 2px solid #9A54BC;
+    border-radius: 5px;
+
+
+}
