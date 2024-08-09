@@ -305,7 +305,6 @@ width: 300px;
     transition: 0.5s;
 }
 
-}
 .bigUl{
     gap: 15px;
     align-items: flex-start;
@@ -337,6 +336,109 @@ ul,ol {
     position: relative;
   }
 
+
+
+
+.stars{
+    margin-top: 120px;
+    background-color:#E2BDF21C;
+    ;
+}
+.designationText {
+margin-top: 80px;
+text-align: center;
+font-size: 15px;
+margin-bottom: 60px;
+}
+.designationPhotoText {
+    font-size: 12px;
+    margin-top: 8px;
+}
+.leftArrow {
+    position: absolute;
+    left: 120px;
+    cursor: pointer;
+}
+
+.rightArrow {
+    position: absolute;
+    right: 120px;
+    cursor: pointer;
+}
+.joinUsContainer {
+    margin-top: 180px;
+}
+.joinUsText {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+.joinUsBtn {
+    margin-top: 60px;
+    color: #fff;
+    background-color: #9A54BC;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border: 1px solid transparent;
+}
+.joinUsBtn:hover {
+    background-color: #fff;
+    color: #9A54BC; 
+    border: 1px solid #9A54BC;
+}
+.photosContainer {
+    position: relative;
+}
+.foto1 {
+    position: absolute;
+    left:-30px;
+    top:-10px;
+}
+.foto2 {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+.foto3 {
+    position: absolute;
+    left: 160px;
+    top: 60px;
+}
+.foto4 {
+    position: absolute;
+    left: 250px;
+    top: 125px ;
+}
+.foto5 {
+    position:absolute;
+    right: 230px;
+    top: 120px;
+}
+.foto6 {
+    position: absolute;
+    right: 110px;
+    top: 110px;
+}
+.foto7 {
+    position: absolute;
+    right: 15px;
+    top: 110px;
+}
+.foto8 {
+    position: absolute;
+    right: -25px;
+    top: 50px;
+}
+.photosContainer p {
+color: #9A54BC;
+font-size: 12px;
+position: absolute;
+right: 80px;
+top: 38px;
+}
 
 
 
@@ -380,3 +482,60 @@ ul,ol {
     margin-bottom: 50px;
     
   }
+
+  .collabBottom {
+    gap: 150px;
+    padding: 100px 0 150px 0;
+    position: relative;
+    background-color:#E2BDF21C;
+    
+    margin-top: 200px;
+}
+.collabInfo {
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: -170px;
+}
+.collabInfo img {
+    width: 130px;
+}
+.collabInfoText {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+.collabListBot {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px 100px;
+    flex-wrap: wrap;
+    width: 500px;
+    position: relative;
+    top: 55px;
+    margin-top: -200px;
+}
+.socialMediaIcons {
+    gap: 10px;
+}
+.socialMediaIcons img {
+    width: 35px;
+}
+.linksBot {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+.purpleLink {
+    color: #60267F;
+    text-decoration: none;
+}
+.boldPhar {
+    font-weight: 500;
+}
