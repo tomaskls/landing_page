@@ -320,3 +320,63 @@ width: 300px;
 .card3 p{
     font-size: 12px;
 }
+ul,ol {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+  }ul li::before {
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+  }
+
+
+
+
+
+
+  .mobile{
+    background-color: #9A54BC;
+    margin-top: 100px;
+    height: 300px;
+  }
+  .mobile h2{
+    align-items: center;
+    color: white;
+  }
+  .mButtons{
+    gap: 50px;
+    margin-top: 30px;
+
+  }
+  .mobileButtons{
+    background-color: #9A54BC;
+    border: 2px solid white;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 30px;
+  }
+  .mobileButtons:hover{
+    background-color: white;
+    color: #9A54BC;
+  }
+  .map{
+    background-color:#E2BDF21C;
+    gap: 150px;
+  }
+  .email{
+    gap: 30px;
+    height: 250px;
+    
+  }
+  .email h2{
+    margin-bottom: 50px;
+    
+  }
